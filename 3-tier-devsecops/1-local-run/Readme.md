@@ -12,7 +12,7 @@
 dev1-crud-1
 ```
 
-![alt text](image.png)
+<img src="images/image.png" width="700" height="400" />
 
 5. Pilih os (ubuntu)
 
@@ -24,23 +24,23 @@ dev1-crud-1
 t2.micro
 ```
 
-![alt text](image-2.png)
+<img src="images/image-2.png" width="700" height="400" />
 
 7. Buat atau masukan (jika sudah ada) key pair
 
-![alt text](image-3.png)
+<img src="images/image-3.png" width="700" height="400" />
 
 8. Untuk network setting biarkan default aja
 
 9. untuk Security group buat atau masukan (jika sudah ada)
 
-![alt text](image-4.png)
+<img src="images/image-4.png" width="700" height="400" />
 
-![alt text](image-6.png)
+<img src="images/image-6.png" width="700" height="400" />
 
 10. untuk storage default aja
 
-![alt text](image-5.png)
+<img src="images/image-5.png" width="700" height="400" />
 
 11. Klik launch
 
@@ -50,31 +50,31 @@ t2.micro
 
 2. copy ip public
 
-![alt text](image-7.png)
+<img src="images/image-7.png" width="700" height="400" />
 
 3. Buka aplikasi mobaxterm
 
-![alt text](image-8.png)
+<img src="images/image-8.png" width="700" height="400" />
 
 4. pilih session
 
 5. pilih ssh isi public ip dan name
 
-![alt text](image-9.png)
+<img src="images/image-9.png" width="700" height="400" />
 
 6. pilih advanced ssh settings lalu pilih private-key yang digunakan sebagai key pair tadi
 
-![alt text](image-10.png)
+<img src="images/image-10.png" width="700" height="400" />
 
 7. klik bookmark settings lalu beri nama server nya
 
-![alt text](image-12.png)
+<img src="images/image-12.png" width="700" height="400" />
 
 8. klik ok
 
 9. maka server bisa diakses
 
-![alt text](image-11.png)
+<img src="images/image-11.png" width="700" height="400" />
 
 ## Install nodejs 
 
@@ -104,7 +104,7 @@ nvm current # Should print "v22.17.1".
 npm -v # Should print "10.9.2".
 ```
 
-![alt text](image-13.png)
+<img src="images/image-13.png" width="700" height="400" />
 
 ## Clone repo
 
@@ -113,8 +113,7 @@ npm -v # Should print "10.9.2".
 ```
 git clone -b local-dev --single-branch https://github.com/jaiswaladi246/3-Tier-DevSecOps-Mega-Project.git
 ```
-
-![alt text](image-14.png)
+<img src="images/image-14.png" width="700" height="400" />
 
 2. buat branch main karena kita clone single branch
 
@@ -144,7 +143,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-![alt text](image-15.png)
+<img src="images/image-15.png" width="700" height="400" />
 
 4. coba tes lagi dengan root user
 
@@ -152,7 +151,7 @@ EXIT;
 sudo mysql
 ```
 
-![alt text](image-16.png)
+<img src="images/image-16.png" width="700" height="400" />
 
 5. maka sekarang harus menggunakan perintah
 
@@ -160,7 +159,7 @@ sudo mysql
 sudo mysql -u root -p
 ```
 
-![alt text](image-17.png)
+<img src="images/image-17.png" width="700" height="400" />
 
 ## Buat database dan tabel
 
@@ -220,11 +219,11 @@ npm install -g pm2
 
 1. Klik 2 kali di name user 
 
-![alt text](image-18.png)
+<img src="images/image-18.png" width="700" height="400" />
 
 2. masuk ke folder api 
 
-![alt text](image-19.png)
+<img src="images/image-19.png" width="700" height="400" />
 
 3. ubah .env sesuaikan dengan yang akan di pakai
 
@@ -236,8 +235,7 @@ DB_NAME=crud_app
 JWT_SECRET=devopsShackSuperSecretKey
 ```
 
-![alt text](image-21.png)
-
+<img src="images/image-21.png" width="700" height="400" />
 
 4. Install depedency nodejs di api
 
@@ -245,7 +243,7 @@ JWT_SECRET=devopsShackSuperSecretKey
 npm install
 ```
 
-![alt text](image-22.png)
+<img src="images/image-22.png" width="700" height="400" />
 
 6. jalankan perintah berikut untuk insialisasi pm2
 
@@ -301,11 +299,11 @@ admin123
 REACT_APP_API=http://3.87.129.152:5000
 ```
 
-![alt text](image-20.png)
+<img src="images/image-20.png" width="700" height="400" />
 
 3. di client telah di buat script testing yang ada di folder src 
 
-![alt text](image-24.png)
+<img src="images/image-24.png" width="700" height="400" />
 
 jalankan dengan perintah
 
@@ -313,7 +311,7 @@ jalankan dengan perintah
 npm run test
 ```
 
-![alt text](image-25.png)
+<img src="images/image-25.png" width="700" height="400" />
 
 4. jalankan perintah berikut untuk insialisasi pm2
 
@@ -361,4 +359,4 @@ http://50.16.51.196:3000 // fe
 http://50.16.51.196:5000 // be
 ```
 
-![alt text](image-26.png)
+<img src="images/image-26.png" width="700" height="400" />
